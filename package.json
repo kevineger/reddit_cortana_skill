@@ -1,0 +1,45 @@
+{
+  "name": "reddit_cortana_skill",
+  "version": "1.0.0",
+  "description": "Microsoft 2017 Hackathon",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevineger/reddit_cortana_skill.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevineger/reddit_cortana_skill/issues"
+  },
+  "homepage": "https://github.com/kevineger/reddit_cortana_skill#readme",
+  "devDependencies": {
+    "@types/body-parser": "^1.16.4",
+    "@types/debug": "0.0.29",
+    "@types/express": "^4.0.36",
+    "@types/jasmine": "^2.5.53",
+    "@types/morgan": "^1.7.32",
+    "@types/node": "^8.0.16",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.2.1",
+    "jasmine-core": "^2.6.4",
+    "karma": "^1.7.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-webpack": "^2.0.4",
+    "ts-loader": "^2.3.1",
+    "typescript": "^2.4.2",
+    "webpack": "^3.3.0",
+    "webpack-dev-server": "^2.6.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "morgan": "^1.8.2"
+  }
+}
